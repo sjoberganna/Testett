@@ -1,0 +1,162 @@
+body {
+
+   background: #EEF2F2;
+   margin:0px;
+
+ }
+ /* Navbar */
+ .navbar a {
+   float: right;
+   font-size: 25px;
+   color: #3C3744;
+   text-align: center;
+   padding: 16px 20px;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   transition: all 0.5s ease;
+ }
+ .navbar a:hover {
+   background:#1282A2;
+   color: #3C3744;
+   border-radius:30px;
+   font-weight: bold;
+ }
+ .logga {
+  padding: 16px 20px ;
+   float: left;
+ }
+
+                            h1 { color: #3C3744;
+                              padding: 100px;
+                              padding-bottom: 10px;
+                              font-size: 48px;
+                              text-align: center;
+                              margin-top: 0px;
+                              font-family: 'Quicksand', sans-serif;
+                              font-weight: semibold 600;
+                            }
+
+                            h2 {color: #3C3744;
+                               text-align: center;
+                               font-size: 35px;
+                               padding-top: 10px;
+                               font-family: 'Quicksand', sans-serif;
+                            }
+
+                            h3 {color: #3C3744;
+
+                               font-size: 30px;
+                               padding-top: 20px;
+                               font-family: 'Quicksand', sans-serif;
+                               margin-left: 350px;
+                             }
+
+                            h4 {color: #3C3744;
+                                text-align: center;
+                                font-size: 32px;
+                                font-family:'Quicksand', sans-serif
+                              }
+
+                              p {color:#3C3744;
+                                text-align: left;
+                                font-size: 30px;
+                                margin-left: 350px;
+                                margin-right: 350px;
+                                font-family:'PT Serif', serif;
+                              }
+
+                               @media (max-width: 992px)  {aside,p,h1,h2,h3,h4,ul,section{ width: 100%; }
+                                }
+
+                                /* bild och listor*/
+                                aside {
+                                  width: 26%;
+                                  float: right;
+                                  margin-top: -356px;
+                                  margin-right: 65px;
+                                
+                                }
+
+                                ul {color:#000000;
+                                  font-size: 28px;
+                                  top: 1000px;
+                                  left: 100px;
+                                }
+
+                                section {
+                                  background-color: #b1d7e2;
+                                  width: auto;
+                                  height: 520px;
+                                  margin-top: 50px;
+                                }
+
+                                .column {
+	                                 height: 200px;
+	                                 padding: 10px;
+	                                 margin-left: 50px;
+	                                 background-color: none;
+	                                 text-align: left;
+                                   float: left;
+	                                }
+
+	                                 .container {
+	                                    display: flex;
+                                      font-size: 28px;
+                                      margin: 0px;
+	                                   }
+
+/* footer*/
+  .plats {
+    display: block;
+    width: 10%;
+    float: right;
+    padding:10px 10px 10px;
+    margin: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+  }
+
+  .contacttext {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 10px 30px 10px;
+    margin: 0px;
+    font-size: 30px;
+  }
+
+  .contacttext, .plats, .tel, .email, .mb-1 {
+    display: block;
+  }
+
+  .tel {
+    display: block;
+    float: right;
+    padding:10px 10px 10px;
+    margin: 0px;
+    font-size: 30px;
+  }
+
+  .email {
+    display: block;
+
+    float: right;
+    padding: 10px 10px 10px;
+    margin: 0px;
+    font-size: 30px;
+  }
+
+.container-fluid{
+overflow:hidden;
+margin-top: 0px ;
+background:#DFDFDF ;
+color: #3C3744;
+margin-bottom: 0 ;
+padding-bottom:0  ;
+width: 100%;
+}
+
+.rights{
+font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important;
+}
